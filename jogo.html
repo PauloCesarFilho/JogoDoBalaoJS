@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Estourando balões</title>
+
+	<script src="jogo.js"></script>
+</head>
+
+<body onload="IniciaJogo()">
+	<div style="float:left;">
+		<table>
+			<tr>
+				<td>
+					<img src="imagens/balao_azul_grande.png" />
+				</td>
+				<td>
+					<span id="balaoCheio"></span>
+				</td>
+			</tr>
+		</table>
+
+		<br />
+		<table>
+			<tr>
+				<td>
+					<img src="imagens/balao_azul_grande_estourado.png" />
+				</td>
+				<td>
+					<span id="balaoEstourado"></span>
+				</td>
+			</tr>
+		</table>
+
+		<br />
+		<table style="width: 140px; height: 132px;">
+			<tr>
+				<td style="background: url('imagens/cronometro.png'); text-align: center;">
+					<span id="cronometro"></span>
+
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="cenario"
+		style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;">
+	</div>
+	<div>
+		<a href="index.html"><input type="button" value="Jogar Novamente!"></a>
+	</div>
+</body>
+
+</html>
